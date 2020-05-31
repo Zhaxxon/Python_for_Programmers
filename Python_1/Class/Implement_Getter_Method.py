@@ -14,6 +14,13 @@ class Rectangle:
             print("Incorrect coordinates of the rectangle!")
 
     # write your code here
+    def height(self):
+        height = self.y1 - self.y2
+        return height
+
+    def width(self):
+        width = self.x2 - self.x1
+        return width
 
 
 # Real Solution
